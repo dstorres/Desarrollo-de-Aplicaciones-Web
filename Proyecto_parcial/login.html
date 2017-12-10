@@ -11,6 +11,8 @@
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet"/>
     <link rel="stylesheet" href="css/estilo.css">
     <link rel="stylesheet" type="text/css" href="css/login.css">
+    <script type="text/javascript" src="js/login.js"></script>
+
 
   </head>
 <body>
@@ -21,21 +23,20 @@
       </header>
 		
 	</div>
-     <div id="Contenedor">
-     <div class="Icon">
-                 
-                   <span class="glyphicon glyphicon-user"></span>
-                 </div>
+    <div id="Contenedor">
+    <div class="Icon">
+      <span class="glyphicon glyphicon-user"></span>
+    </div>
 
-      <form action="" method="post" name="FormEntrar">
+      <form action="index.html" method="get" name="FormEntrar" onSubmit="return login()">
         <div class="input-group input-group-lg">
           <span class="input-group-addon" id="sizing-addon1"><i class="glyphicon glyphicon-envelope"></i></span>
-          <input type="email" class="form-control" name="correo" placeholder="Correo" id="Correo">
+          <input type="email" class="form-control" name="correo" placeholder="Correo" id="correo">
         </div>
         <br>
         <div class="input-group input-group-lg">
           <span class="input-group-addon" id="sizing-addon1"><i class="glyphicon glyphicon-lock"></i></span>
-          <input type="password" name="contra" class="form-control" placeholder="******">
+          <input type="password" name="contra" class="form-control" placeholder="******" id="clave">
         </div>
         <br>
         <button class="btn btn-lg btn-primary btn-block btn-signin" id="IngresoLog" type="submit">Entrar</button>
