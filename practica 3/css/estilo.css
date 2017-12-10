@@ -1,0 +1,75 @@
+
+/*Selectores básicos*/
+
+* {
+	font-family:verdana;
+}
+
+h1 {
+	color:blue;
+	text-align:center;
+}
+header#cabecera img{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+	width: 10%;
+}
+header nav ul li.elemento-menu{
+	display:inline;
+	list-style-type:none;	
+}
+#menu{
+	text-align:center;
+}
+/*Selectores avanzados*/
+
+footer>p{
+	font-family:italic;
+}
+
+footer#footer{
+	text-align:center	
+}
+
+h3~h4{
+	font-style:italic;
+	color:green;
+}
+
+aside ul li>p{
+	font-size: 8pt;
+}
+
+h5[title$="small"]{
+	text-decoration: underline;
+}
+
+li[name="fork"]{
+	list-style-image:url("https://goo.gl/y0yaro");
+}
+
+/*Pseudo-clases y Pseudo-elementos*/
+
+nav:hover, li:hover, ul:hover {
+    color: green;
+}
+
+
+
+
+/*MANTENGA COMENTADA ESTA PARTE HASTA EL FINAL*/
+section#left {
+	float:left;
+	width:70%;
+	
+}
+aside#right {
+	float:right;
+	width:25%;
+}
+
+footer#footer {
+	clear:both;
+}

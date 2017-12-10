@@ -1,0 +1,63 @@
+.header {
+    color: #36A0FF;
+    font-size: 27px;
+    padding: 10px;
+}
+
+.bigicon {
+    font-size: 35px;
+    color: #36A0FF;
+}
+
+.content-block span {
+	font-family: 'Narkisim';
+	color: #fff;
+	padding:5px 50px;
+	background-color: #000;
+	border-color: #000;
+	border-style: solid;
+}
+
+.content-block{
+
+	background-color: #fff;
+}
+
+.content-block .cd-timeline-img {
+	text-align: center;
+}
+
+.content-block h2, p, a{
+	text-align: center;
+	/*font-family: 'Narkisim';*/
+	color: #000;
+}
+
+.content-block p {
+	margin-bottom: 20px;
+}
+
+.content-block img{
+	margin-left: auto;
+	margin-right: auto;
+	width:200px;
+	padding: 10px;
+	opacity: 0.8;
+}
+
+#cd-timeline {
+  position: relative;
+  padding: 2em 2em;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+#cd-timeline::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 18px;
+  height: 100%;
+  width: 4px;
+  background: #000;
+}
