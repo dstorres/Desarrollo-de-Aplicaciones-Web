@@ -88,4 +88,16 @@ $(document).ready(function() {
     	divMapa = document.getElementById('mapa');
     	navigator.geolocation.getCurrentPosition(fn_ok,fn_error);
 	});
+	$('#show1').click(function(){
+    	divMapa = document.getElementById('mapa1');
+    	navigator.geolocation.getCurrentPosition(fn_ok,fn_error);
+	});
+	$('#show2').click(function(){
+    	divMapa = document.getElementById('mapa2');
+    	navigator.geolocation.getCurrentPosition(fn_ok,fn_error);
+	});
+	$('#show3').click(function(){
+    	divMapa = document.getElementById('mapa3');
+    	navigator.geolocation.getCurrentPosition(fn_ok,fn_error);
+	});
 });
