@@ -10,6 +10,15 @@
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet"/>
     <link rel="stylesheet" href="css/estilo.css">
     <script type="text/javascript" src="js/js_activarMenu.js"></script>
+    
+
+    <script>
+      window.onload = function()
+        {
+            var valores=getGET();
+        }
+    </script>
+
 
   </head>
 
@@ -24,7 +33,7 @@
               <li><a id="itemsHorario" href="horarios.html" values="0">Horarios</a></li>
               <li><a href="ayudantes.html">Galer&iacutea</a></li>
               <li><a href="publicaciones.html">Publicaciones</a></li>
-              <li><a href="aulas.html" onclick="return false;">Aulas</a></li>
+              <li><a id="itemsaula" href="aulas.html" values="0">Aulas</a></li>
               <li><a href="contactanos.html">Contactos</a></li>
             </ul>
           </nav>
@@ -119,6 +128,7 @@
         </small>
       </div>
     </footer>
-
+  
+  
   </body>
 </html>

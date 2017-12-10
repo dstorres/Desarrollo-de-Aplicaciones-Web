@@ -16,27 +16,12 @@
     <link rel="stylesheet" href="css/aula.css">
     <script type="text/javascript" src="js/js_mapa.js"></script>
     <script type="text/javascript" src="js/vue-chartkick.js"></script>
-<!--[if IE]>
-<script src="http://explorercanvas.googlecode.com/svn/trunk/excanvas.js"></script>
-<![endif]-->
-
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
-<!--[if IE]>
-<script src="http://explorercanvas.googlecode.com/svn/trunk/excanvas.js"></script>
-<![endif]-->
 
 
-
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
   </head>
 
   <body>
-    <dialog id="ms">
-      <div id="mapa" style="width:700px; height:500px;" >
-        
-      </div>
-      <button id="close" onclick="document.getElementById('ms').close()">Ok!</button>
-    </dialog>
-
 
     <header class="masthead">
       <div class="title text-center">
@@ -73,7 +58,7 @@
               </div>
               <ul class="list-unstyled">
                 <li>
-                  <a id="show" onclick="document.getElementById('ms').showModal()">Estad&iacutestica</a>
+                  <a href="">Estad&iacutestica</a>
                 </li>
                 <li>
                   <a href="">Calulo Dferencias</a>
@@ -198,13 +183,13 @@
             <span class="titulo_Aula">Promedio de Ayudantes</span>
           </div>
           <hr>
+
           <div class="row"> 
             <div class="col-md-4">
               <canvas id="chart" width="500" height="400"></canvas>
             </div>
             <div class="col-md-6">
               <table id="chartData">
-
                 <tr>
                   <th>Ayudantes</th><th>Cantidad</th>
                  </tr>
