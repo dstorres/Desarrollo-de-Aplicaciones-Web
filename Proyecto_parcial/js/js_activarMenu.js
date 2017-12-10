@@ -31,5 +31,5 @@ function getGET()
             conteo++;
         }
         return get; 
-    }
+    } 
 }
