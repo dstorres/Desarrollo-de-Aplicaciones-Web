@@ -45,6 +45,10 @@ div.img_principal{
   text-align: center;
 }
 
+div.id_imagen_principal{
+  padding-right:0px;
+  padding-left:0px;
+}
 
 img.img_prin {
   border-style: solid;
