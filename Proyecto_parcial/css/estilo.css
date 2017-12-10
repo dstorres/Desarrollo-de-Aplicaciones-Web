@@ -276,3 +276,9 @@ p.id_small{
 input, label, button, a, .panel-footer {
   font-family: 'Narkisim';
 }
+
+div>span.titulo_Aula{
+  text-align: left;
+  font-family: Arial-black;
+  font-size: 40px;
+}
