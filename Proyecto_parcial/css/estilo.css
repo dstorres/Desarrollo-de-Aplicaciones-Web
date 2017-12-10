@@ -302,3 +302,40 @@ div>span.titulo_Aula{
   text-decoration: none;
 }
 
+th.tipo_celda{
+  border-width:1px;
+  border-style:Solid;
+  width:180px;
+  border-color:#d6d6d6;
+}
+td.tipo_celda_1{
+  border-width:1px;
+  border-style:Solid;
+  border-color:#d6d6d6
+}
+
+th.tipo_celda_th {
+  background-color:#F1F1F1;
+  border-width:1px;
+  border-style:Solid;
+  width:120px;
+  white-space:nowrap;
+  border-color:#d6d6d6;
+  text-align:center;
+}
+
+td.tipo_celda_horario{
+  background-color:#00FF40;
+  border-width:1px;
+  border-style:Solid;
+  border-color:#d6d6d6;
+  text-align: center;
+  font-family: arial;
+
+}
+
+table#contenido_tbl_Horario{
+  border-color:#D6D6D6;
+  border-width:2px;
+  border-style:solid;
+}
