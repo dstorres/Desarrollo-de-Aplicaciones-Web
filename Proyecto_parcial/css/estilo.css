@@ -282,3 +282,19 @@ div>span.titulo_Aula{
   font-family: Arial-black;
   font-size: 40px;
 }
+
+
+.user {
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: white!important;
+  margin: 1%;
+  font-family: 'Narkisim';
+}
+
+.user a{
+  color: white;
+  text-decoration: none;
+}
+
