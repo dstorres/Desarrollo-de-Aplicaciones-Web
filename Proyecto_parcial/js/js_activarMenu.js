@@ -30,6 +30,6 @@ function getGET()
             get[tmp[0]] = unescape(decodeURI(tmp[1]));
             conteo++;
         }
-        return get;
+        return get; 
     }
 }
